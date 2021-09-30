@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejericicio del 28 de septiembre</title>
+</head>
+<script>
+    /*
+    Un Estudiante desea conocer el promedio de 4 parciales y
+    desea conocer si aprueba o reprueba, muestre como salida
+     el promedio de los parciales  el promedio mayor a 70
+
+     HECHO POR OSCAR RAMOS
+    */
+
+    var parcial1=parseFloat(prompt("Ingrese la nota del primer Parcial"))
+    var parcial2=parseFloat(prompt("Ingrese la nota del segundo Parcial"))
+    var parcial3=parseFloat(prompt("Ingrese la nota del tercer Parcial"))
+    var parcial4=parseFloat(prompt("Ingrese la nota del cuarto Parcial"))
+    var promedio= (parcial1+parcial2+parcial3+parcial4)/4
+    if(promedio > 70){
+    alert(`Aprobado con un promedio de  ${promedio}`)
+}else {
+    alert(`Reprobado con un promedio de  ${promedio}`)
+}   
+</script>
+<body>
+    
+</body>
+</html>
